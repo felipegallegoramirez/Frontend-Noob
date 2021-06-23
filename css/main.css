@@ -1,0 +1,330 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #7b7b7b;
+}
+.LBlanca {
+  color: #ddd;
+}
+.fGrisOscuro {
+  background-color: #343434;
+}
+
+.principal-Section__Decoration img {
+  left: calc(-100vw);
+  top: -9px;
+  position: absolute;
+  height: calc(100vh + 10px);
+  width: 160vw;
+  z-index: 10;
+}
+.Principal-Section__Decorationshort {
+  position: relative;
+  z-index: 500;
+}
+.Principal-Section__Decorationshort img {
+  position: absolute;
+  opacity: 000;
+}
+
+.Principal-Section__Decorationshort .img1 {
+  width: 40vw;
+  margin: 20px 10vw;
+  max-height: 100px;
+  max-width: 500px;
+  opacity: 100;
+}
+.Principal-Section__Decorationshort .img2 {
+  width: 10vw;
+  height: 15vh;
+  margin: 45vh 7vw;
+  opacity: 100;
+  animation: Temblor 7s;
+  animation-iteration-count: infinite;
+}
+.Principal-Section__Decorationshort .img3 {
+  width: 10vw;
+  margin: 43vh 29vw;
+  height: 15vh;
+  opacity: 100;
+  animation: Temblor 12s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+.Principal-Section__Decorationshort .img4 {
+  width: 15vw;
+  height: 25vh;
+  margin: 87vh 15vw;
+  opacity: 100;
+}
+.Principal-Section__Decorationshort .img5 {
+  width: 25vw;
+  height: 20vh;
+  margin: 80vh -15vw;
+  opacity: 100;
+  animation: Gigante 13s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+.Principal-Section__Decorationshort .img6 {
+  width: 25vw;
+  height: 40vh;
+  margin: 60vh 10vw;
+  opacity: 100;
+}
+
+.Principal-Section__Decorationshort .img7 {
+  width: 25vw;
+  height: 20vh;
+  margin: 20vh 30vw;
+  opacity: 100;
+  animation: Gigante 12s;
+  animation-iteration-count: infinite;
+}
+
+.Principal-Section__Decorationshort .img8 {
+  width: 10vw;
+  height: 15vh;
+  margin: 55vh 35vw;
+  opacity: 100;
+  animation: Temblor 6s;
+  animation-delay: 6s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+.principal-Section__Login {
+  z-index: 0;
+  position: absolute;
+  margin: 15vh 0 0 calc(60vw + (40vw - 600px) / 2);
+  padding: 30px;
+  height: 70vh;
+  width: 500px;
+}
+
+.principal-Section__Login__img {
+  position: absolute;
+  height: 70vh;
+  width: 500px;
+  z-index: -1;
+  max-width: 500px;
+}
+.principal-Section__Login div {
+  text-align: center;
+}
+.principal-Section__Login p {
+  user-select: none;
+}
+.principal-Section__Login div h2 {
+  user-select: none;
+  font-size: 30px;
+}
+
+.principal-Section__Login .principal-Section__Login__div {
+  width: 85%;
+  height: 30px;
+  margin: 30px 5%;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #fff4;
+}
+
+.principal-Section__Login .principal-Section__Login__div img {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+}
+
+.principal-Section__Login .principal-Section__Login__div input {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  height: 30px;
+  width: calc(100% - 60px);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+
+.principal-Section__Login__Recover {
+  box-sizing: border-box;
+  padding: 0px 20px;
+  display: inline-flex;
+  margin: -10px 0px 0px 0px;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.principal-Section__Login__Recover:hover {
+  user-select: none;
+  cursor: pointer;
+}
+
+.principal-Section__Login div button {
+  margin: 30px;
+  width: 60%;
+  height: 45px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.principal-Section__Login div button:hover {
+  background-color: #454545;
+}
+.Register:hover {
+  cursor: pointer;
+}
+/*register-----------------------------------------*/
+.principal-Section__Register {
+  z-index: 0;
+  position: absolute;
+  margin: 15vh 0 0 calc(60vw + (40vw - 600px) / 2);
+  padding: 30px;
+  height: 70vh;
+  width: 500px;
+}
+
+.principal-Section__Register div {
+  text-align: center;
+}
+.principal-Section__Register p {
+  user-select: none;
+}
+.principal-Section__Register div h2 {
+  user-select: none;
+  font-size: 30px;
+}
+
+.principal-Section__Register .principal-Section__Login__div {
+  width: 85%;
+  height: 30px;
+  margin: 30px 5%;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #fff4;
+}
+
+.principal-Section__Register .principal-Section__Login__div img {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+}
+
+.principal-Section__Register .principal-Section__Login__div input {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  height: 30px;
+  width: calc(100% - 60px);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+
+.principal-Section__Register div button {
+  margin: 30px;
+  width: 60%;
+  height: 45px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.principal-Section__Register div button:hover {
+  background-color: #454545;
+}
+
+.FondoA {
+  animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  animation-fill-mode: forwards;
+  animation: Comer 4s;
+}
+
+.ElementA {
+  animation-fill-mode: both;
+  animation: Leave 4s cubic-bezier(0, 0.5, 0.5, 1) forwards;
+}
+
+.ElementB {
+  animation-fill-mode: both;
+  animation: Return 4s cubic-bezier(0, 0.5, 0.5, 1) forwards;
+}
+.ElementBI {
+  animation-fill-mode: both;
+  animation: Leave 0s cubic-bezier(0, 0.5, 0.5, 1) forwards;
+}
+.Login:hover {
+  cursor: pointer;
+}
+
+@keyframes Comer {
+  50% {
+    transform: translateX(70vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes Leave {
+  0% {
+    transform: translateX(0px);
+    opacity: 100;
+  }
+  50% {
+    transform: translateX(0px);
+    opacity: 100;
+  }
+  100% {
+    transform: translateX(-1800px);
+    opacity: 0;
+  }
+}
+
+@keyframes Return {
+  0% {
+    transform: translateX(-1800px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-1800px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100;
+  }
+}
+
+@keyframes Temblor {
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes Gigante {
+  33% {
+    transform: scale(1.1);
+  }
+  66% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
